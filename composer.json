@@ -41,6 +41,9 @@
             "homepage": "https://hiqdev.com/"
         }
     ],
+    "require": {
+        "hiqdev/yii2-asset-pnotify": "~2.1"
+    },
     "autoload": {
         "psr-4": {
             "hiqdev\\pnotify\\": "src"
