@@ -5,6 +5,7 @@ Yii2 adapter for PNotify extension
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/yii2-pnotify/v/stable.png)](https://packagist.org/packages/hiqdev/yii2-pnotify)
 [![Total Downloads](https://poser.pugx.org/hiqdev/yii2-pnotify/downloads.png)](https://packagist.org/packages/hiqdev/yii2-pnotify)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:yii2-pnotify/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:yii2-pnotify/dev-master)
 
 ## Installation
 
