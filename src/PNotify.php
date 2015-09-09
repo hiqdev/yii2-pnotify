@@ -1,6 +1,6 @@
 <?php
 
-namespace hiqdev\yii2\pnotify;
+namespace hiqdev\pnotify;
 
 class PNotify
 {

@@ -43,7 +43,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "hiqdev\\yii2\\pnotify\\": "src"
+            "hiqdev\\pnotify\\": "src"
         }
     }
 }
