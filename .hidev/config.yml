@@ -1,0 +1,12 @@
+package:
+    name:           yii2-pnotify
+    label:          HiQDev-PNotify
+    title:          Yii2 adapter for PNotify extension
+    type:           yii2-extension
+    keywords:       yii2, pnotify
+    namespace:      hiqdev\yii2\pnotify
+    year:           2015
+
+require:
+    hiqdev/hidev-config:        "*"
+    hiqdev/hidev-config-php:    "*"
