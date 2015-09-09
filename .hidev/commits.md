@@ -3,6 +3,7 @@ hiqdev/yii2-pnotify commits history
 
 ## Under development
 
+    - b2879b5 2015-09-09 Inited (d.naumenko.a@gmail.com)
     - 793b177 2015-09-08 Merge pull request #2 from SilverFire/master (sol@hiqdev.com)
     - dc679d2 2015-09-08 Replaced raoul2000/yii2-pnotify-widget with iutbay/yii2-pnotify (d.naumenko.a@gmail.com)
     - 48a1922 2015-09-07 added stock module (sol@hiqdev.com)
