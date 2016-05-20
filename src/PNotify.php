@@ -2,25 +2,31 @@
 
 namespace hiqdev\pnotify;
 
-use hipanel\helpers\ArrayHelper;
 use hiqdev\assets\pnotify\PNotifyAsset;
 use yii\base\InvalidConfigException;
+use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 
 /**
- * Class PNotify
+ * Class PNotify.
  * Yii2 support for PNotify JS plugin.
  *
- * Please, refer to https://github.com/sciactive/pnotify for detailed information about possible call options
+ * Please, refer to https://github.com/sciactive/pnotify for detailed information about possible call options.
  *
  * @package hiqdev\pnotify
  */
 class PNotify extends \yii\base\Widget
 {
     /**
-     * @var array options that will be passed to PNotify JS call.
+     * @var array options to be passed to PNotify JS call.
      */
-    public $clientOptions = [];
+    protected $_clientOptions = [
+        'hide'    => true,
+        'styling' => 'bootstrap3',
+        'buttons' => [
+            'sticker' => false,
+        ],
+    ];
 
     /**
      * @var array list of notifications. Will be merged with [[clientOptions]] before notification render
@@ -28,11 +34,16 @@ class PNotify extends \yii\base\Widget
     public $notifications = [];
 
     /**
-     * {@inheritdoc}
+     * @param array $value
      */
-    public function init()
+    public function setClientOptions($value)
     {
-        parent::init();
+        $this->_clientOptions = $value;
+    }
+
+    public function getClientOptions()
+    {
+        return $this->_clientOptions;
     }
 
     /**
@@ -51,15 +62,15 @@ class PNotify extends \yii\base\Widget
     }
 
     /**
-     * Registers JS for PNotify plugin
-     * @param array $notification
+     * Registers JS for PNotify plugin.
+     * @param array $notification configuration array
      * @return void
      */
     protected function registerNotification(array $notification)
     {
         $view = $this->getView();
 
-        $options = Json::encode(ArrayHelper::merge($this->clientOptions, $notification));
+        $options = Json::encode(ArrayHelper::merge($this->getClientOptions(), $notification));
         $view->registerJs("new PNotify({$options});");
     }
 
