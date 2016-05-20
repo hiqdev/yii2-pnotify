@@ -1,18 +1,18 @@
 <?php
 
 /*
- * HiPanel core package
+ * Yii2 adapter for PNotify JQuery extension
  *
- * @link      https://hipanel.com/
- * @package   hipanel-core
+ * @link      https://github.com/hiqdev/yii2-pnotify
+ * @package   yii2-pnotify
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2014-2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
 namespace hiqdev\pnotify;
 
-use yii\helpers\ArrayHelper;
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * Alert widget renders a message from session flash. All flash messages are displayed

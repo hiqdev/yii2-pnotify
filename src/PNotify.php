@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * Yii2 adapter for PNotify JQuery extension
+ *
+ * @link      https://github.com/hiqdev/yii2-pnotify
+ * @package   yii2-pnotify
+ * @license   BSD-3-Clause
+ * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
+ */
+
 namespace hiqdev\pnotify;
 
 use hiqdev\assets\pnotify\PNotifyAsset;
@@ -12,8 +21,6 @@ use yii\helpers\Json;
  * Yii2 support for PNotify JS plugin.
  *
  * Please, refer to https://github.com/sciactive/pnotify for detailed information about possible call options.
- *
- * @package hiqdev\pnotify
  */
 class PNotify extends \yii\base\Widget
 {
@@ -75,7 +82,7 @@ class PNotify extends \yii\base\Widget
     }
 
     /**
-     * Registers the needed JavaScript
+     * Registers the needed JavaScript.
      * @return void
      */
     public function registerClientScript()
@@ -83,5 +90,4 @@ class PNotify extends \yii\base\Widget
         $view = $this->getView();
         PNotifyAsset::register($view);
     }
-
 }
