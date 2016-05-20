@@ -12,7 +12,7 @@
 namespace hiqdev\pnotify;
 
 use yii\helpers\ArrayHelper;
-use Yii
+use Yii;
 
 /**
  * Alert widget renders a message from session flash. All flash messages are displayed
