@@ -3,6 +3,8 @@ hiqdev/yii2-pnotify commits history
 
 ## Under development
 
+    - 9bde6c5 2016-05-20 csfixed (sol@hiqdev.com)
+    - a69f510 2016-05-20 rehideved (sol@hiqdev.com)
     - 21783cd 2016-05-20 added simpler defaulting for clientOptions (sol@hiqdev.com)
     - 8e7dc0f 2016-05-20 fixed typo (sol@hiqdev.com)
     - 8f81488 2016-05-20 + Alert.php (sol@hiqdev.com)
