@@ -8,7 +8,6 @@ Yii2 PNotify
 [![Build Status](https://img.shields.io/travis/hiqdev/yii2-pnotify.svg)](https://travis-ci.org/hiqdev/yii2-pnotify)
 [![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/yii2-pnotify.svg)](https://scrutinizer-ci.com/g/hiqdev/yii2-pnotify/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/yii2-pnotify.svg)](https://scrutinizer-ci.com/g/hiqdev/yii2-pnotify/)
-[![Dependency Status](https://www.versioneye.com/php/hiqdev:yii2-pnotify/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:yii2-pnotify/dev-master)
 
 ## Installation
 
