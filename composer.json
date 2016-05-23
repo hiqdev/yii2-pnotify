@@ -42,6 +42,9 @@
             "homepage": "http://hiqdev.com/"
         }
     ],
+    "require": {
+        "hiqdev/yii2-asset-pnotify": "*"
+    },
     "require-dev": {
         "yiisoft/yii2": "*@dev",
         "yiisoft/yii2-bootstrap": "*@dev",
