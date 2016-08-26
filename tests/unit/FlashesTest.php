@@ -11,18 +11,18 @@
 
 namespace hiqdev\pnotify\tests\unit;
 
-use hiqdev\pnotify\Alert;
+use hiqdev\pnotify\Flashes;
 
-class AlertTest extends \PHPUnit_Framework_TestCase
+class FlashesTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var Alert
+     * @var Flashes
      */
     protected $object;
 
     protected function setUp()
     {
-        $this->object = new Alert();
+        $this->object = new Flashes();
     }
 
     protected function tearDown()
@@ -31,6 +31,6 @@ class AlertTest extends \PHPUnit_Framework_TestCase
 
     public function testConstruct()
     {
-        $this->assertInstanceOf(Alert::class, $this->object);
+        $this->assertInstanceOf(Flashes::class, $this->object);
     }
 }
