@@ -47,7 +47,7 @@ class Flashes extends \yii\bootstrap\Widget
     ];
 
     /**
-     * @var array the options for rendering the close button tag.
+     * @var array the options for rendering the close button tag
      */
     public $closeButton = [];
 

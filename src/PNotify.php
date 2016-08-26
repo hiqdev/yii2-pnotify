@@ -25,10 +25,10 @@ use yii\helpers\Json;
 class PNotify extends \yii\base\Widget
 {
     /**
-     * @var array options to be passed to PNotify JS call.
+     * @var array options to be passed to PNotify JS call
      */
     protected $_clientOptions = [
-        'hide'    => true,
+        'hide' => true,
         'styling' => 'bootstrap3',
         'buttons' => [
             'sticker' => false,
