@@ -69,8 +69,7 @@ class Flashes extends \yii\bootstrap\Widget
 
     public function run()
     {
-        $session = Yii::$app->getSession();
-        $flashes = $session->getAllFlashes();
+        $flashes = Yii::$app->getSession()->getAllFlashes();
         $notifications = [];
 
         foreach ($flashes as $type => $data) {
@@ -83,7 +82,7 @@ class Flashes extends \yii\bootstrap\Widget
                         'type' => $type,
                     ], $message);
                 }
-                $session->removeFlash($type);
+                Yii::$app->getSession()->removeFlash($type);
             }
         }
 
