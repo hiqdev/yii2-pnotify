@@ -15,7 +15,7 @@ use Yii;
 use yii\helpers\ArrayHelper;
 
 /**
- * Alert widget renders a message from session flash. All flash messages are displayed
+ * Flashes widget renders messages from session flashes. All flash messages are displayed
  * in the sequence they were assigned using setFlash. You can set message as following:.
  *
  * ```php
@@ -30,7 +30,7 @@ use yii\helpers\ArrayHelper;
  * Yii::$app->getSession()->setFlash('error', ['Error 1', 'Error 2']);
  * ```
  */
-class Alert extends \yii\bootstrap\Widget
+class Flashes extends \yii\bootstrap\Widget
 {
     /**
      * @var array the alert types configuration for the flash messages.
