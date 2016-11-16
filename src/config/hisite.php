@@ -10,11 +10,7 @@
  */
 
 return [
-    'components' => [
-        'themeManager' => [
-            'widgets' => [
-                'Flashes' => \hiqdev\pnotify\Flashes::class,
-            ],
-        ],
+    'definitions' => [
+        'Flashes' => \hiqdev\pnotify\Flashes::class,
     ],
 ];
