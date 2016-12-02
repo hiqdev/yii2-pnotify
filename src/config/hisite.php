@@ -10,7 +10,9 @@
  */
 
 return [
-    'definitions' => [
-        'Flashes' => \hiqdev\pnotify\Flashes::class,
+    'container' => [
+        'definitions' => [
+            'Flashes' => \hiqdev\pnotify\Flashes::class,
+        ],
     ],
 ];
