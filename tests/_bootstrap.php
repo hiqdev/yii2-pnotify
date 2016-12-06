@@ -1,6 +1,5 @@
 <?php
-
-/*
+/**
  * Yii2 adapter for PNotify JQuery extension
  *
  * @link      https://github.com/hiqdev/yii2-pnotify

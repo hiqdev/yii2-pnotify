@@ -1,6 +1,5 @@
 <?php
-
-/*
+/**
  * Yii2 adapter for PNotify JQuery extension
  *
  * @link      https://github.com/hiqdev/yii2-pnotify
@@ -71,7 +70,6 @@ class PNotify extends \yii\base\Widget
     /**
      * Registers JS for PNotify plugin.
      * @param array $notification configuration array
-     * @return void
      */
     protected function registerNotification(array $notification)
     {
@@ -83,7 +81,6 @@ class PNotify extends \yii\base\Widget
 
     /**
      * Registers the needed JavaScript.
-     * @return void
      */
     public function registerClientScript()
     {
