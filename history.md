@@ -1,7 +1,14 @@
 hiqdev/yii2-pnotify
 -------------------
 
-## [0.0.2] - 2016-08-26
+## [0.1.0] - 2016-12-06
+
+- Changed container definitions config
+    - [6d33cf4] 2016-12-06 csfixed [sol@hiqdev.com]
+    - [9eb77b2] 2016-12-02 used proper container definitions setting [sol@hiqdev.com]
+    - [02ffefc] 2016-11-16 redone themeManager widgets to DI definitions [sol@hiqdev.com]
+
+## [0.0.2] - 2016-10-24
 
 - Added Flashes class processing yii flashes
     - [20593e0] 2016-08-26 csfixed [sol@hiqdev.com]
@@ -43,3 +50,6 @@ hiqdev/yii2-pnotify
 [9e5f927]: https://github.com/hiqdev/yii2-pnotify/commit/9e5f927
 [bf70753]: https://github.com/hiqdev/yii2-pnotify/commit/bf70753
 [9129802]: https://github.com/hiqdev/yii2-pnotify/commit/9129802
+[6d33cf4]: https://github.com/hiqdev/yii2-pnotify/commit/6d33cf4
+[9eb77b2]: https://github.com/hiqdev/yii2-pnotify/commit/9eb77b2
+[02ffefc]: https://github.com/hiqdev/yii2-pnotify/commit/02ffefc
