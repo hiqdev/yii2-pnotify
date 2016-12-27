@@ -11,7 +11,7 @@
 return [
     'container' => [
         'definitions' => [
-            'Flashes' => \hiqdev\pnotify\Flashes::class,
+            \hiqdev\thememanager\widgets\Flashes::class => \hiqdev\pnotify\Flashes::class,
         ],
     ],
 ];
