@@ -4,4 +4,8 @@ package:
     title:          Yii2 adapter for PNotify JQuery extension
     headline:       Yii2 PNotify
     keywords:       yii2, pnotify, jquery
-    namespace:      hiqdev\pnotify
+    description:    |
+        Provides widgets to show notifications:
+
+        - PNotify
+        - Flashes
